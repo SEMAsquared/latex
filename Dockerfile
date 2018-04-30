@@ -9,6 +9,7 @@ RUN apt-get -qq update && \
     texlive-lang-german \
     texlive-latex-extra \
     texlive-bibtex-extra \
+    texlive-science \
     biber && \
     rm -rf /var/lib/apt/lists/*
 
