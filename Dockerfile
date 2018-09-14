@@ -9,6 +9,7 @@ RUN apt-get -qq update && \
     texlive-lang-german \
     texlive-latex-extra \
     texlive-bibtex-extra \
+    texlive-generic-extra \
     texlive-science \
     latexmk \
     biber && \
