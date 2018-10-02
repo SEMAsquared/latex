@@ -12,7 +12,8 @@ RUN apt-get -qq update && \
     texlive-generic-extra \
     texlive-science \
     latexmk \
-    biber && \
+    biber \
+    gnuplot && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /workspace
