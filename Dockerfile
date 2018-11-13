@@ -13,7 +13,8 @@ RUN apt-get -qq update && \
     texlive-science \
     latexmk \
     biber \
-    gnuplot && \
+    gnuplot \
+    graphviz && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /workspace
