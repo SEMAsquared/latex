@@ -16,7 +16,8 @@ RUN apt-get -qq update && \
     latexmk \
     biber \
     gnuplot \
-    graphviz && \
+    graphviz \
+    pandoc && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /workspace
